@@ -9,7 +9,6 @@ blurb:
     shouldn't just taste good, it should do good too. We source all of our beans
     directly from small scale sustainable farmers and make sure part of the
     profits are reinvested in their communities.
-  texttest: sadasdasdasdasd
 intro:
   heading: What we offer
   text: >-
