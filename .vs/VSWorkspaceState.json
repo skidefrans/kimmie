@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\.dependabot",
+    "\\.github",
+    "\\bin",
+    "\\site",
+    "\\site\\layouts",
+    "\\src"
+  ],
+  "SelectedNode": "\\.eslintrc.yml",
+  "PreviewInSolutionExplorer": false
+}
