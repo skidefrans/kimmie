@@ -16,7 +16,8 @@ intro:
     java’s origin and support the farmers that grew it. We take coffee
     production, roasting and brewing seriously and we’re glad to pass that
     knowledge to anyone.
-  text2: hey hey hey yo yoyo
+  text2: >-
+    hey hey hey yo yoyo
 products:
   - image: img/illustrations-coffee.svg
     text: >-
