@@ -9,6 +9,7 @@ blurb:
     shouldn't just taste good, it should do good too. We source all of our beans
     directly from small scale sustainable farmers and make sure part of the
     profits are reinvested in their communities.
+  texttest: "# Mauris sollicitudin fermentum libero\n\nUt varius tincidunt libero. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Donec interdum, metus et hendrerit aliquet, dolor diam sagittis ligula, eget egestas libero turpis vel mi. Nam adipiscing. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.\r\n\nPraesent blandit laoreet nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce id purus. Donec posuere vulputate arcu. Sed augue ipsum, egestas nec, vestibulum et, malesuada adipiscing, dui. Fusce fermentum.\r\n\nMaecenas nec odio et ante tincidunt tempus. Etiam sollicitudin, ipsum eu pulvinar rutrum, tellus ipsum laoreet sapien, quis venenatis ante odio sit amet eros. In auctor lobortis lacus. Nunc nec neque. Phasellus magna."
 intro:
   heading: What we offer
   text: >-
