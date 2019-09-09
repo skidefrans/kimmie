@@ -1,4 +1,188 @@
 {{ define "main" }}
+<div id="introBox">
+    <div id="step1">
+        <span>Velkommen</span>
+    </div>
+    <div id="step2">
+        <span>til</span>
+    </div>
+    <div id="step3">
+        <span>mit</span>
+    </div>
+    <div id="step4">
+        <span>portfolio</span>
+    </div>
+    <div id="step5">
+        <span>
+            <span>
+                <span><span>K</span><span class="end">immie</span></span>
+                <span><span class="rotate-v">V</span><span class="end">maliegaard</span></span>
+                <span><span>V</span><span class="end">inston</span></span>
+                <span><span>J</span><span class="end">ørgensen</span></span>
+            </span>
+        </span>
+    </div>
 
-{{ partial "short-text" .Params.blurb}}
+</div>
+
+<div class="wrapper main-nav">
+    <a href="">Kimmie? / kontakt</a>
+</div>
+
+<div id="content">
+    <div class="wrapper grid">
+        <div class="case item">
+            <div class="content">
+                <div>
+                    <span class="case-image" data-img="{{.Params.image}}"
+                        style="background-image: url('{{.Params.image}}')">
+                        <img loading="eager" src="{{.Params.image}}" alt="">
+                        <ul class="case-image-nav">
+                            <li class="current" data-img="{{.Params.image}}">Guide</li>
+                            <li data-img="{{.Params.image}}">Visitkort</li>
+                            <li data-img="{{.Params.image}}">Hjemmeside</li>
+                        </ul>
+                    </span>
+                </div>
+                <div class="case-intro">
+                    <h2>Aalborg Zoo - Visuel Identitet</h2>
+                    <p>
+                        Afsluttende eksamensopgave omkring
+                        re-design af Aalborg Zoo’s visuelle identitet. Der er lavet re-design af logo, visitkort,
+                        skilte
+                        og hjemmeside. Derudover er der udformet
+                        en designguide, som kan ses her.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="case item">
+            <div class="content">
+                <div>
+                    <span class="case-image" data-img="/assets/skov.jpg"
+                        style="background-image: url(/assets/skov-crop.jpg)">
+                        <img loading="eager" src="/assets/skov-crop.jpg" alt="">
+                        
+                    </span>
+                </div>
+                <div class="case-intro">
+                    <h2>Overskrift</h2>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+        </div>
+        <div class="case item">
+            <div class="content">
+                <div>
+                    <span class="case-image" data-img="/assets/skov.jpg"
+                        style="background-image: url(/assets/skov-crop3.jpg)">
+                        <img loading="eager" src="/assets/skov-crop3.jpg" alt="">
+                        <ul class="case-image-nav">
+                            <li class="current" data-img="/assets/skov.jpg">Lorem.</li>
+                            <li data-img="/assets/skov.jpg">Corporis!</li>
+                            <li data-img="/assets/skov.jpg">Ipsa!</li>
+                            <li data-img="/assets/test2.jpg">Tempore.</li>
+                        </ul>
+                    </span>
+                </div>
+                <div class="case-intro">
+                    <h2>Overskrift</h2>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+        </div>
+        <div class="case item">
+            <div class="content">
+                <div>
+                    <span class="case-image" data-img="/assets/skov.jpg"
+                        style="background-image: url(/assets/skov-crop2.jpg)">
+                        <img loading="eager" src="/assets/skov-crop2.jpg" alt="">
+                    </span>
+                </div>
+                <div class="case-intro">
+                    <h2>Overskrift</h2>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+        </div>
+        <div class="case item">
+            <div class="content">
+                <div>
+                    <span class="case-image" data-img="/assets/skov.jpg"
+                        style="background-image: url(/assets/skov-crop.jpg)">
+                        <img loading="eager" src="/assets/skov-crop.jpg" alt="">
+                    </span>
+                </div>
+                <div class="case-intro">
+                    <h2>Overskrift</h2>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+        </div>
+        <div class="case item">
+            <div class="content">
+                <div>
+                    <span class="case-image" data-img="/assets/skov.jpg"
+                        style="background-image: url(/assets/skov-crop.jpg)">
+                        <img loading="eager" src="/assets/skov-crop.jpg" alt="">
+                    </span>
+                </div>
+                <div class="case-intro">
+                    <h2>Overskrift</h2>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+        </div>
+        <div class="case item">
+            <div class="content">
+                <div>
+                    <span class="case-image" data-img="/assets/skov.jpg"
+                        style="background-image: url(/assets/skov-crop.jpg)">
+                        <img loading="eager" src="/assets/skov-crop.jpg" alt="">
+                    </span>
+                </div>
+                <div class="case-intro">
+                    <h2>Overskrift</h2>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+        </div>
+        <div class="case item">
+            <div class="content">
+                <div>
+                    <span class="case-image" data-img="/assets/skov.jpg"
+                        style="background-image: url(/assets/skov-crop.jpg)">
+                        <img loading="eager" src="/assets/skov-crop.jpg" alt="">
+                    </span>
+                </div>
+                <div class="case-intro">
+                    <h2>Overskrift</h2>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="contact">
+    <div class="about">
+        <h3>Kimmie Amaliegaard Vinston Jørgensen</h3>
+        <p>
+            Morbi nec metus. Curabitur blandit mollis lacus. Integer tincidunt. Etiam sollicitudin, ipsum eu
+            pulvinar rutrum, tellus ipsum laoreet sapien, quis venenatis ante odio sit amet eros. Morbi mollis
+            tellus ac sapien.
+        </p>
+
+        <nav>
+            <a href="">Facebook</a>
+            <a href="">Instagram</a>
+            <a href="">Linkedin</a>
+            <a href="">CV</a>
+            <a href="">kimmieavj@hotmail.com</a>
+        </nav>
+    </div>
+</div>
+
+
 {{ end }}

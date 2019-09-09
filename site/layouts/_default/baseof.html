@@ -1,17 +1,172 @@
 <!doctype html>
 <html lang="{{ $.Site.Language.Lang }}">
   {{ partial "head" . }}
-  <body class="sans-serif">
+  <body class="intro">
 
-    {{ block "header" . }}{{ partial "nav" . }}{{end}}
+    {{ block "header" . }}{{end}}
 
     {{ block "main" . }}{{ end }}
 
-    {{ block "footer" . }}{{ partial "footer" . }}{{end}}
+    {{ block "footer" . }}{{end}}
 
     {{ $script := .Site.Data.webpack.main }}
     {{ with $script.js }}
       <script src="{{ relURL . }}"></script>
-    {{ end }}
+	{{ end }}
+  
+  <script>
+  
+function images() {
+  $(".case-image").each(function () {
+    $(this).css("background-image", 'url(' + $(this).attr("data-img") + ')');
+
+  });
+}
+
+$(document).ready(function () {
+
+
+  $('.case-image-nav li').click(function (e) {
+    e.preventDefault();
+    $('.case-image-nav li.current').removeClass('current');
+    $(this).parent().parent().css("background-image", 'url(' + $(this).attr("data-img") + ')');
+    $(this).addClass('current');
+  });
+
+  $('.case-image').click(function (e) {
+    if (jQuery(event.target).is('.case-image .case-image-nav li, .case-image .case-image-nav')) {
+      return false;
+    }
+
+$('.preload-img').remove();
+
+    if (!$(this).hasClass('open')) {
+
+
+      $(this).find('.case-image-nav li').each(function (index, element) {
+        $('<img />').attr('src', $(element).attr('data-img')).attr('class','preload-img').appendTo('body').css('display', 'none');
+      });
+
+      var width = $(this).width(),
+        height = $(this).height(),
+        top = $(this).offset().top - $(window).scrollTop(),
+        left = $(this).offset().left;
+
+      $(this).css("width", width);
+      $(this).attr("data-width", width);
+
+      $(this).css("height", height);
+      $(this).attr("data-height", height);
+
+      $(this).css("top", top);
+      $(this).attr("data-top", top);
+
+      $(this).css("left", left);
+      $(this).attr("data-left", left);
+
+      $(this).css("position", "fixed");
+
+      var tlStart = new TimelineMax();
+
+      tlStart.to($('body'), 0, { className: '+=intro' }, "big")
+        .to($(this), 0.2, { borderWidth: "40px 40px 40px" }, "big")
+        .to($(this), 0.2, { top: 0 }, "big")
+        .to($(this), 0.2, { left: 0 }, "big")
+        .to($(this), 0.2, { width: "100%" }, "big")
+        .to($(this), 0.2, { height: "100%" }, "big")
+        .to($(this), 0, { className: "+=open" }, "big");
+
+
+      tlStart.play();
+    }
+
+    if ($(this).hasClass('open')) {
+      var tlBack = new TimelineMax();
+
+      tlBack.to($(this), 0.2, { top: $(this).attr("data-top") }, "big")
+        .to($(this), 0.2, { borderWidth: 0 }, "big")
+        .to($(this), 0.2, { left: $(this).attr("data-left") }, "big")
+        .to($(this), 0.2, { width: $(this).attr("data-width") }, "big")
+        .to($(this), 0.2, { height: $(this).attr("data-height") }, "big")
+        .to($(this), 0.2, { height: $(this).attr("data-height") }, "big")
+        .to($(this), 0, { className: "-=open" }, "big")
+        .to($(this), 0, { position: "static" })
+        .to($('body'), 0, { className: "-=intro" });
+
+
+
+      tlBack.play();
+    }
+
+  });
+
+  var tl = new TimelineMax(),
+    body = $('body'),
+    step1 = $('#step1'),
+    step1Txt = $('#step1 span'),
+    step2 = $('#step2'),
+    step2Txt = $('#step2 span'),
+    step3 = $('#step3'),
+    step3Txt = $('#step3 span'),
+    step4 = $('#step4'),
+    step4Txt = $('#step4 span'),
+    step5 = $('#step5'),
+
+    slideSpeed = 0.2;
+  slideDelay = " +=0.1";
+
+
+  tl.to(step1Txt, 0.2, { marginTop: 0 }, "+=0.3")
+    .to(step1, slideSpeed, { height: 0 }, "s1 +=0.4")
+    .to(step2, slideSpeed, { height: 0 }, "s2" + slideDelay)
+    .to(step3, slideSpeed, { height: 0 }, "s3" + slideDelay)
+    .to(step4, slideSpeed, { height: 0 }, "s4" + slideDelay)
+    .to(step1Txt, 0.2, { marginTop: "-300px" }, "s1 +=0.4")
+    .to(step2Txt, 0.2, { marginTop: "-300px" }, "s2" + slideDelay)
+    .to(step3Txt, 0.2, { marginTop: "-300px" }, "s3" + slideDelay)
+    .to(step4Txt, 0.2, { marginTop: "-300px" }, "s4" + slideDelay)
+    .to(step5.find('span.end'), 0.2, { color: "#f1e3f3" }, "+=0.8")
+    .to(step5.find('span.end'), 0.2, { width: 0 }, "+=0.1")
+    .to(step5, 0.5, { height: "0" }, "logo +=0.2")
+    .to(step5, 0.5, { backgroundColor: "#fff" }, "logo +=0.2")
+    .to(step5.find('span.end'), 0.5, { color: "#fff" }, "logo +=0.2")
+    .to(body, 0, { className: "-=intro" }, "+=0.2")
+    .call(images)
+
+  tl.play()
+
+  resizeAllGridItems();
+});
+
+
+
+function resizeGridItem(item) {
+  grid = document.getElementsByClassName("grid")[0];
+  rowHeight = parseInt(window.getComputedStyle(grid).getPropertyValue('grid-auto-rows'));
+  rowGap = parseInt(window.getComputedStyle(grid).getPropertyValue('grid-row-gap'));
+  rowSpan = Math.ceil((item.querySelector('.content').getBoundingClientRect().height + rowGap) / (rowHeight + rowGap));
+  item.style.gridRowEnd = "span " + rowSpan;
+}
+
+function resizeAllGridItems() {
+  allItems = document.getElementsByClassName("item");
+  for (x = 0; x < allItems.length; x++) {
+    resizeGridItem(allItems[x]);
+  }
+}
+
+function resizeInstance(instance) {
+  item = instance.elements[0];
+  resizeGridItem(item);
+}
+
+window.addEventListener("resize", resizeAllGridItems);
+
+allItems = document.getElementsByClassName("item");
+for (x = 0; x < allItems.length; x++) {
+  imagesLoaded(allItems[x], resizeInstance);
+}
+</script>
+
   </body>
 </html>
