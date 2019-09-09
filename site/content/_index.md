@@ -1,6 +1,6 @@
 ---
 title: Great coffee with a conscience
-image: /img/skov.jpg
+image: /img/about-shade-grown.jpg
 blurb:
   body: "~~**Maecenas malesuada. Curabitur suscipit suscipit tellus. Donec posuere vulputate arcu. Ut tincidunt tincidunt erat. Ut non enim eleifend felis pretium feugiat.**~~\r\n\n\r~~****~~\n\nNunc interdum lacus sit amet orci. Cras ultricies mi eu turpis hendrerit fringilla. Nam commodo suscipit quam. Fusce fermentum. Curabitur suscipit suscipit tellus."
   heading: Why Kaldi?
