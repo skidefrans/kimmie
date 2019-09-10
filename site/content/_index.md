@@ -2,18 +2,6 @@
 title: Great coffee with a conscience
 image: /img/test2.jpg
 cases:
-  - image: /img/aayguidemockup-2.png
-    imagename: Designguide
-    images:
-      - image: /img/aayvisitkortmockup.png
-        imagename: Visitkort
-      - image: /img/aaywebmockup-1.png
-        imagename: Hjemmeside
-    text: >-
-      Eksamensopgave omkring re-design af All About You’s visuelle identitet.
-      Der er lavet re-design af logo, hjemmeside, nyhedsbrev, ordrebekræftelse
-      og visitkort.
-    title: All About You / Visuel identitet
   - image: /img/mockupguide-1-.jpg
     imagename: Designguide
     images:
@@ -26,6 +14,18 @@ cases:
       identitet. Der er lavet re-design af logo, visitkort, skilte og
       hjemmeside.
     title: Aalborg Zoo / Visuel identitet
+  - image: /img/aayguidemockup-2.png
+    imagename: Designguide
+    images:
+      - image: /img/aayvisitkortmockup.png
+        imagename: Visitkort
+      - image: /img/aaywebmockup-1.png
+        imagename: Hjemmeside
+    text: >-
+      Eksamensopgave omkring re-design af All About You’s visuelle identitet.
+      Der er lavet re-design af logo, hjemmeside, nyhedsbrev, ordrebekræftelse
+      og visitkort.
+    title: All About You / Visuel identitet
   - image: /img/mythmakerguideockup_2.png
     imagename: Designguide
     images:
