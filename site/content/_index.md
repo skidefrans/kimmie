@@ -26,12 +26,16 @@ cases:
       Der er lavet re-design af logo, hjemmeside, nyhedsbrev, ordrebekræftelse
       og visitkort.
     title: All About You / Visuel identitet
-  - image: /img/about-reinvest-profits.jpg
-    imagename: Image
+  - image: /img/mythmakerguideockup_2.png
+    imagename: Designguide
+    images:
+      - image: /img/mythmakervisitkortockup.jpg
+        imagename: Visitkort
+      - image: /img/mythmakerwebmockup.png
+        imagename: Hjemmeside
     text: >-
-      Aenean massa. Praesent nec nisl a purus blandit viverra. Donec posuere
-      vulputate arcu. Phasellus ullamcorper ipsum rutrum nunc. Vestibulum
-      ullamcorper mauris at ligula.
-    title: Test
+      Skoleprojekt omkring re-design af Mythmaker Media’s visuelle identitet. I
+      re-designet blev der lavet logo, visitkort, hjemmeside samt design guide.
+    title: Mythmaker Media
 ---
 
