@@ -40,6 +40,8 @@ cases:
     text: >-
 
 
+
+
       Skoleprojekt omkring re-design af Mythmaker Media’s visuelle identitet. I
       re-designet blev der lavet logo, visitkort, hjemmeside samt design guide.
     title: Mythmaker Media / Visuel identitet
