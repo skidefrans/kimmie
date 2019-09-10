@@ -11,13 +11,18 @@ cases:
         imagename: Hjemmeside
     text: "Afsluttende eksamensopgave omkring\r\n\nre-design af Aalborg Zoo’s visuelle identitet. Der er lavet re-design af logo, visitkort, skilte\r\n\nog hjemmeside."
     title: Aalborg Zoo / Visuel identitet
-  - image: /img/products-full-width.jpg
-    imagename: billede test
+  - image: /img/aayguidemockup-2.png
+    imagename: Designguide
     images:
-      - image: /img/home-jumbotron.jpg
-        imagename: billede igen
-    text: case2
-    title: case2
+      - image: /img/aayvisitkortmockup.png
+        imagename: Visitkort
+      - image: /img/aaywebmockup-1.png
+        imagename: Hjemmeside
+    text: >-
+      Eksamensopgave omkring re-design af All About You’s visuelle identitet.
+      Der er lavet re-design af logo, hjemmeside, nyhedsbrev, ordrebekræftelse
+      og visitkort
+    title: All About You / Visuel identitet
   - image: /img/about-reinvest-profits.jpg
     imagename: Image
     text: >-
