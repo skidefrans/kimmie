@@ -16,5 +16,12 @@ cases:
         imagename: billede igen
     text: case2
     title: case2
+  - image: /img/about-reinvest-profits.jpg
+    imagename: Image
+    text: >-
+      Aenean massa. Praesent nec nisl a purus blandit viverra. Donec posuere
+      vulputate arcu. Phasellus ullamcorper ipsum rutrum nunc. Vestibulum
+      ullamcorper mauris at ligula.
+    title: Test
 ---
 
