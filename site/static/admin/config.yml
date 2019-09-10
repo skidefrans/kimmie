@@ -25,7 +25,7 @@ collections: # A list of collections the CMS should be able to edit
                 name: text
                 widget: markdown
               - label: Image name
-                name: image-name
+                name: imagename
                 widget: string
               - label: Image
                 name: image
@@ -35,7 +35,7 @@ collections: # A list of collections the CMS should be able to edit
                 widget: list
                 fields:
                   - label: Image name
-                    name: image-name
+                    name: imagename
                     widget: string
                   - label: Image
                     name: image

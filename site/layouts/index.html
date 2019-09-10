@@ -40,10 +40,10 @@
                             style="background-image: url('{{.image}}?nf_resize=smartcrop&w=700&h=700')">
                             <img loading="eager" src="{{.image}}?nf_resize=smartcrop&w=700&h=700" alt="">
                             <ul class="case-image-nav">
-                                <li class="current" data-img="{{.image}}?nf_resize=smartcrop&w=1920&h=1080">{{.image-name}}</li>
+                                <li class="current" data-img="{{.image}}?nf_resize=smartcrop&w=1920&h=1080">{{.imagename}}</li>
 
                                 {{ range .images }}
-                                <li data-img="{{.image}}?nf_resize=smartcrop&w=1920&h=1080">{{.image-name}}</li>
+                                <li data-img="{{.image}}?nf_resize=smartcrop&w=1920&h=1080">{{.imagename}}</li>
                                 {{ end }}
 
                             </ul>
