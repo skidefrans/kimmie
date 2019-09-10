@@ -2,7 +2,7 @@
 title: Great coffee with a conscience
 image: /img/test2.jpg
 cases:
-  - image: /img/about-direct-sourcing.jpg
+  - image: /img/skov.jpg
     imagename: billede1
     images:
       - image: /img/about-reinvest-profits.jpg
