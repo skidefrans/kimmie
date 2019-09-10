@@ -10,6 +10,8 @@ cases:
       - image: /img/mockuphjemmeside.jpg
         imagename: Hjemmeside
     text: >-
+
+
       Afsluttende eksamensopgave omkring re-design af Aalborg Zoo’s visuelle
       identitet. Der er lavet re-design af logo, visitkort, skilte og
       hjemmeside.
@@ -22,6 +24,8 @@ cases:
       - image: /img/aaywebmockup-1.png
         imagename: Hjemmeside
     text: >-
+
+
       Eksamensopgave omkring re-design af All About You’s visuelle identitet.
       Der er lavet re-design af logo, hjemmeside, nyhedsbrev, ordrebekræftelse
       og visitkort.
@@ -34,6 +38,8 @@ cases:
       - image: /img/mythmakerwebmockup.png
         imagename: Hjemmeside
     text: >-
+
+
       Skoleprojekt omkring re-design af Mythmaker Media’s visuelle identitet. I
       re-designet blev der lavet logo, visitkort, hjemmeside samt design guide.
     title: Mythmaker Media
