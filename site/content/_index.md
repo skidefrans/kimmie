@@ -17,7 +17,7 @@ cases:
       hjemmeside.
     title: Aalborg Zoo / Visuel identitet
   - image: /img/aayguidemockup-2.png
-    imagename: Designguide
+    imagename: Designguide / Visuel identitet
     images:
       - image: /img/aayvisitkortmockup.png
         imagename: Visitkort
