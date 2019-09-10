@@ -1,6 +1,10 @@
 ---
 title: Great coffee with a conscience
-image: /img/test2.jpg
+about: >-
+  Jeg er 24 år og uddannet Grafisk Designteknolog.
+
+  Her på siden finder du en blanding af skoleopgaver, freelanceopgaver, samt
+  fritidsprojekter.
 cases:
   - image: /img/mockupguide-1-.jpg
     imagename: Designguide
