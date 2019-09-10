@@ -24,9 +24,9 @@ cases:
       - image: /img/aaywebmockup-1.png
         imagename: Hjemmeside
     text: >-
-
-
       Eksamensopgave omkring re-design af All About You’s visuelle identitet.
+
+
       Der er lavet re-design af logo, hjemmeside, nyhedsbrev, ordrebekræftelse
       og visitkort.
     title: All About You / Visuel identitet
