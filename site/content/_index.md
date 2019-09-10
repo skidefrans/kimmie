@@ -19,14 +19,11 @@ cases:
       - image: /img/aaywebmockup-1.png
         imagename: Hjemmeside
     text: >-
-      Afsluttende eksamensopgave omkring
+      Eksamensopgave omkring re-design af All About You’s visuelle identitet. 
 
 
-      re-design af Aalborg Zoo’s visuelle identitet. Der er lavet re-design af
-      logo, visitkort, skilte
-
-
-      og hjemmeside.
+      Der er lavet re-design af logo, hjemmeside, nyhedsbrev, ordrebekræftelse
+      og visitkort.
     title: All About You / Visuel identitet
   - image: /img/about-reinvest-profits.jpg
     imagename: Image
