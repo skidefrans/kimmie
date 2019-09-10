@@ -31,136 +31,36 @@
 
 <div id="content">
     <div class="wrapper grid">
+        {{ range .Params.cases }}
+        
         <div class="case item">
-            <div class="content">
-                <div>
-                    <span class="case-image" data-img="{{.Params.image}}?nf_resize=smartcrop&w=1920&h=1080"
-                        style="background-image: url('{{.Params.image}}?nf_resize=smartcrop&w=700&h=700')">
-                        <img loading="eager" src="{{.Params.image}}?nf_resize=smartcrop&w=700&h=700" alt="">
-                        <ul class="case-image-nav">
-                            <li class="current" data-img="{{.Params.image}}?nf_resize=smartcrop&w=1920&h=1080">Guide</li>
-                            <li data-img="{{.Params.image}}?nf_resize=smartcrop&w=1920&h=1080">Visitkort</li>
-                            <li data-img="{{.Params.image}}?nf_resize=smartcrop&w=1920&h=1080">Hjemmeside</li>
-                        </ul>
-                    </span>
-                </div>
-                <div class="case-intro">
-                    <h2>Aalborg Zoo - Visuel Identitet</h2>
-                    <p>
-                        Afsluttende eksamensopgave omkring
-                        re-design af Aalborg Zoo’s visuelle identitet. Der er lavet re-design af logo, visitkort,
-                        skilte
-                        og hjemmeside. Derudover er der udformet
-                        en designguide, som kan ses her.
-                    </p>
+                <div class="content">
+                    <div>
+                        <span class="case-image" data-img="{{.Params.image}}?nf_resize=smartcrop&w=1920&h=1080"
+                            style="background-image: url('{{.Params.image}}?nf_resize=smartcrop&w=700&h=700')">
+                            <img loading="eager" src="{{.Params.image}}?nf_resize=smartcrop&w=700&h=700" alt="">
+                            <ul class="case-image-nav">
+                                <li class="current" data-img="{{.Params.image}}?nf_resize=smartcrop&w=1920&h=1080">Guide</li>
+                                <li data-img="{{.Params.image}}?nf_resize=smartcrop&w=1920&h=1080">Visitkort</li>
+                                <li data-img="{{.Params.image}}?nf_resize=smartcrop&w=1920&h=1080">Hjemmeside</li>
+                            </ul>
+                        </span>
+                    </div>
+                    <div class="case-intro">
+                        <h2>Aalborg Zoo - Visuel Identitet</h2>
+                        <p>
+                            Afsluttende eksamensopgave omkring
+                            re-design af Aalborg Zoo’s visuelle identitet. Der er lavet re-design af logo, visitkort,
+                            skilte
+                            og hjemmeside. Derudover er der udformet
+                            en designguide, som kan ses her.
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="case item">
-            <div class="content">
-                <div>
-                    <span class="case-image" data-img="/assets/skov.jpg"
-                        style="background-image: url(/assets/skov-crop.jpg)">
-                        <img loading="eager" src="/assets/skov-crop.jpg" alt="">
-                        
-                    </span>
-                </div>
-                <div class="case-intro">
-                    <h2>Overskrift</h2>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                </div>
-            </div>
-        </div>
-        <div class="case item">
-            <div class="content">
-                <div>
-                    <span class="case-image" data-img="/assets/skov.jpg"
-                        style="background-image: url(/assets/skov-crop3.jpg)">
-                        <img loading="eager" src="/assets/skov-crop3.jpg" alt="">
-                        <ul class="case-image-nav">
-                            <li class="current" data-img="/assets/skov.jpg">Lorem.</li>
-                            <li data-img="/assets/skov.jpg">Corporis!</li>
-                            <li data-img="/assets/skov.jpg">Ipsa!</li>
-                            <li data-img="/assets/test2.jpg">Tempore.</li>
-                        </ul>
-                    </span>
-                </div>
-                <div class="case-intro">
-                    <h2>Overskrift</h2>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                </div>
-            </div>
-        </div>
-        <div class="case item">
-            <div class="content">
-                <div>
-                    <span class="case-image" data-img="/assets/skov.jpg"
-                        style="background-image: url(/assets/skov-crop2.jpg)">
-                        <img loading="eager" src="/assets/skov-crop2.jpg" alt="">
-                    </span>
-                </div>
-                <div class="case-intro">
-                    <h2>Overskrift</h2>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                </div>
-            </div>
-        </div>
-        <div class="case item">
-            <div class="content">
-                <div>
-                    <span class="case-image" data-img="/assets/skov.jpg"
-                        style="background-image: url(/assets/skov-crop.jpg)">
-                        <img loading="eager" src="/assets/skov-crop.jpg" alt="">
-                    </span>
-                </div>
-                <div class="case-intro">
-                    <h2>Overskrift</h2>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                </div>
-            </div>
-        </div>
-        <div class="case item">
-            <div class="content">
-                <div>
-                    <span class="case-image" data-img="/assets/skov.jpg"
-                        style="background-image: url(/assets/skov-crop.jpg)">
-                        <img loading="eager" src="/assets/skov-crop.jpg" alt="">
-                    </span>
-                </div>
-                <div class="case-intro">
-                    <h2>Overskrift</h2>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                </div>
-            </div>
-        </div>
-        <div class="case item">
-            <div class="content">
-                <div>
-                    <span class="case-image" data-img="/assets/skov.jpg"
-                        style="background-image: url(/assets/skov-crop.jpg)">
-                        <img loading="eager" src="/assets/skov-crop.jpg" alt="">
-                    </span>
-                </div>
-                <div class="case-intro">
-                    <h2>Overskrift</h2>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                </div>
-            </div>
-        </div>
-        <div class="case item">
-            <div class="content">
-                <div>
-                    <span class="case-image" data-img="/assets/skov.jpg"
-                        style="background-image: url(/assets/skov-crop.jpg)">
-                        <img loading="eager" src="/assets/skov-crop.jpg" alt="">
-                    </span>
-                </div>
-                <div class="case-intro">
-                    <h2>Overskrift</h2>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                </div>
-            </div>
-        </div>
+        {{ end }}
+
+        
     </div>
 </div>
 
