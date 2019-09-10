@@ -13,7 +13,7 @@ collections: # A list of collections the CMS should be able to edit
         name: "home"
         fields:
           - {label: Title, name: title, widget: string}
-          - {label: "Image", name: "image", widget: "image"}
+          - {label: "About", name: "about", widget: "text"}
           - label: Cases
             name: cases
             widget: list
