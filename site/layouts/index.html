@@ -36,13 +36,16 @@
         <div class="case item">
                 <div class="content">
                     <div>
-                        <span class="case-image" data-img="{{.Params.image}}?nf_resize=smartcrop&w=1920&h=1080"
-                            style="background-image: url('{{.Params.image}}?nf_resize=smartcrop&w=700&h=700')">
-                            <img loading="eager" src="{{.Params.image}}?nf_resize=smartcrop&w=700&h=700" alt="">
+                        <span class="case-image" data-img="{{.image}}?nf_resize=smartcrop&w=1920&h=1080"
+                            style="background-image: url('{{.image}}?nf_resize=smartcrop&w=700&h=700')">
+                            <img loading="eager" src="{{.image}}?nf_resize=smartcrop&w=700&h=700" alt="">
                             <ul class="case-image-nav">
-                                <li class="current" data-img="{{.Params.image}}?nf_resize=smartcrop&w=1920&h=1080">Guide</li>
-                                <li data-img="{{.Params.image}}?nf_resize=smartcrop&w=1920&h=1080">Visitkort</li>
-                                <li data-img="{{.Params.image}}?nf_resize=smartcrop&w=1920&h=1080">Hjemmeside</li>
+                                <li class="current" data-img="{{.image}}?nf_resize=smartcrop&w=1920&h=1080">Guide</li>
+
+                                {{ range .images }}
+                                <li data-img="{{.image}}?nf_resize=smartcrop&w=1920&h=1080">Visitkort</li>
+                                {{ end }}
+
                             </ul>
                         </span>
                     </div>
