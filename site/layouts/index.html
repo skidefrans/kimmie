@@ -40,24 +40,18 @@
                             style="background-image: url('{{.image}}?nf_resize=smartcrop&w=700&h=700')">
                             <img loading="eager" src="{{.image}}?nf_resize=smartcrop&w=700&h=700" alt="">
                             <ul class="case-image-nav">
-                                <li class="current" data-img="{{.image}}?nf_resize=smartcrop&w=1920&h=1080">Guide</li>
+                                <li class="current" data-img="{{.image}}?nf_resize=smartcrop&w=1920&h=1080">{{.image-name}}</li>
 
                                 {{ range .images }}
-                                <li data-img="{{.image}}?nf_resize=smartcrop&w=1920&h=1080">Visitkort</li>
+                                <li data-img="{{.image}}?nf_resize=smartcrop&w=1920&h=1080">{{.image-name}}</li>
                                 {{ end }}
 
                             </ul>
                         </span>
                     </div>
                     <div class="case-intro">
-                        <h2>Aalborg Zoo - Visuel Identitet</h2>
-                        <p>
-                            Afsluttende eksamensopgave omkring
-                            re-design af Aalborg Zoo’s visuelle identitet. Der er lavet re-design af logo, visitkort,
-                            skilte
-                            og hjemmeside. Derudover er der udformet
-                            en designguide, som kan ses her.
-                        </p>
+                        <h2>{{.title}}</h2>
+                        {{ .text | markdownify }}
                     </div>
                 </div>
             </div>
