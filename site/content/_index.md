@@ -2,13 +2,15 @@
 title: Great coffee with a conscience
 image: /img/test2.jpg
 cases:
-  - image: /img/skov.jpg
-    imagename: billede1
+  - image: /img/mockupguide-1-.jpg
+    imagename: Designguide
     images:
-      - image: /img/about-reinvest-profits.jpg
-        imagename: billede2
-    text: fedt
-    title: en case
+      - image: /img/bomærkemockupvisitkort.jpg
+        imagename: Visitkort
+      - image: /img/mockuphjemmeside.jpg
+        imagename: Hjemmeside
+    text: "Afsluttende eksamensopgave omkring\r\n\nre-design af Aalborg Zoo’s visuelle identitet. Der er lavet re-design af logo, visitkort, skilte\r\n\nog hjemmeside."
+    title: Aalborg Zoo / Visuel identitet
   - image: /img/products-full-width.jpg
     imagename: billede test
     images:
