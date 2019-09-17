@@ -1,6 +1,6 @@
 // JS Goes here - ES6 supported
 
-import "./css/base.css";
+import "./css/main.css";
 
 
 // Say hello
