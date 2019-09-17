@@ -60,6 +60,15 @@ cases:
       "If you stumble, make it a part of your dance."
       "Why walk when you can dance?"
       "When you feel sad, dance."
-    title: Dansepigerne
+    title: Dansepigerne / Illustration
+  - image: /img/artflycover.png
+    imagename: Forside
+    images:
+      - image: /img/artflysider.png
+        imagename: Artikel
+      - image: /img/artflyandresider.png
+        imagename: Pladebørs
+    text: "Skoleprojekt omkring magasin design.\r\nDer er lavet navn, logo, forside med et billede fra en anden kunstner, indersider, samt en designguide"
+    title: Artfly / Magasin Design
 ---
 
