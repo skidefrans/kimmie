@@ -29,8 +29,13 @@ cases:
         imagename: Big Circles
     text: Illustration af cirkler
     title: Circles / Illustration
-  - image: /img/tropevæg.jpg
+  - image: /img/mactropevæg.jpg
     imagename: Tropevæg
+    images:
+      - image: /img/img_20190907_101748.jpg
+        imagename: Tropehuset
+      - image: /img/tropevæg.png
+        imagename: Grafik
     text: >-
       Foliebeklædning på 13,5x2,5 meter til ydrevæggen på tropehuset i Aalborg
       Zoo.
