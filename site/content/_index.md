@@ -82,10 +82,6 @@ cases:
       Skoleprojekt omkring re-design af Mythmaker Media’s visuelle identitet. I
       re-designet blev der lavet logo, visitkort, hjemmeside samt design guide.
     title: Mythmaker Media / Visuel identitet
-  - image: /img/sittinglady.jpg
-    imagename: Sitting lady
-    text: Sitting lady
-    title: Sitting lady / Illustration
   - image: /img/artflycover.png
     imagename: Forside
     images:
@@ -95,10 +91,6 @@ cases:
         imagename: Pladebørs
     text: "Skoleprojekt omkring magasin design.\r\nDer er lavet navn, logo, forside med et billede fra en anden kunstner, indersider, samt en designguide"
     title: Artfly / Magasin Design
-  - image: /img/triplelady.jpg
-    imagename: Triple lady
-    text: Triple lady
-    title: Triple lady / Illustration
   - image: /img/flamingos.jpg
     imagename: Flamingos
     text: Flamingos
@@ -107,5 +99,22 @@ cases:
     imagename: Cactus
     text: Cactus
     title: Cactus / Illustration
+  - image: /img/jess.jpg
+    imagename: Jess
+    images:
+      - image: /img/julie.jpg
+        imagename: Julie
+      - image: /img/laura.jpg
+        imagename: Laura
+      - image: /img/susan.jpg
+        imagename: Susan
+      - image: /img/sara.jpg
+        imagename: Sara
+      - image: /img/abbie.jpg
+        imagename: Abbie
+      - image: /img/nanna.jpg
+        imagename: Nanna
+    text: Galleri med forskellige kvinde illustrationer.
+    title: Ladies / Illustration
 ---
 
