@@ -74,11 +74,14 @@ cases:
     title: Artfly / Magasin Design
   - image: /img/circles1.jpg
     imagename: circles
+    images:
+      - image: /img/bigcircles.png
+        imagename: Circles
     text: Illustration af cirkler
-    title: Circles
+    title: Circles / Illustration
   - image: /img/kimmockup.jpg
     imagename: Kim Larsen
     text: Kim Larsen illustration
-    title: Kim Larsen
+    title: Kim Larsen / Illustration
 ---
 
