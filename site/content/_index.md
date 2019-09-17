@@ -82,7 +82,7 @@ cases:
       Skoleprojekt omkring re-design af Mythmaker Media’s visuelle identitet. I
       re-designet blev der lavet logo, visitkort, hjemmeside samt design guide.
     title: Mythmaker Media / Visuel identitet
-  - image: /img/circles1.jpg
+  - image: /img/artflycover.png
     imagename: Forside
     images:
       - image: /img/artflysider.png
