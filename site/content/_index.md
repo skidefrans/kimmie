@@ -6,7 +6,7 @@ about: >-
   Her på siden finder du en blanding af skoleopgaver, freelanceopgaver, samt
   fritidsprojekter.
 cases:
-  - image: /img/mockupguide-1-.jpg
+  - image: /img/aalzoodesignguide.jpg
     imagename: Designguide
     images:
       - image: /img/bomærkemockupvisitkort.jpg
