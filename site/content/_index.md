@@ -49,24 +49,6 @@ cases:
       Der er lavet re-design af logo, hjemmeside, nyhedsbrev, ordrebekræftelse
       og visitkort.
     title: All About You / Visuel identitet
-  - image: /img/dansepiger.jpg
-    imagename: Dansepiger
-    images:
-      - image: /img/mockupdansepige.png
-        imagename: Pige 1
-      - image: /img/mockupdansepige2.png
-        imagename: Pige 2
-      - image: /img/mockupdansepige3.png
-        imagename: Pige 3
-    text: |-
-      "If you stumble, make it a part of your dance."
-      "Why walk when you can dance?"
-      "When you feel sad, dance."
-    title: Dansepigerne / Illustration
-  - image: /img/kimmockup.jpg
-    imagename: Kim Larsen
-    text: Kim Larsen illustration
-    title: Kim Larsen / Illustration
   - image: /img/jess.jpg
     imagename: Jess
     images:
@@ -84,6 +66,24 @@ cases:
         imagename: Nanna
     text: Galleri med forskellige kvinde illustrationer.
     title: Ladies / Illustration
+  - image: /img/kimmockup.jpg
+    imagename: Kim Larsen
+    text: Kim Larsen illustration
+    title: Kim Larsen / Illustration
+  - image: /img/dansepiger.jpg
+    imagename: Dansepiger
+    images:
+      - image: /img/mockupdansepige.png
+        imagename: Pige 1
+      - image: /img/mockupdansepige2.png
+        imagename: Pige 2
+      - image: /img/mockupdansepige3.png
+        imagename: Pige 3
+    text: |-
+      "If you stumble, make it a part of your dance."
+      "Why walk when you can dance?"
+      "When you feel sad, dance."
+    title: Dansepigerne / Illustration
   - image: /img/mythmakerguideockup_2.png
     imagename: Designguide
     images:
