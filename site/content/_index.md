@@ -1,5 +1,5 @@
 ---
-title: Great coffee with a conscience
+title: Portfolio - Kimmie Amaliegaard Vinston Jørgensen
 about: >-
   Jeg er 24 år og uddannet Grafisk Designteknolog.
 
