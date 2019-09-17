@@ -49,12 +49,14 @@ cases:
       Skoleprojekt omkring re-design af Mythmaker Media’s visuelle identitet. I
       re-designet blev der lavet logo, visitkort, hjemmeside samt design guide.
     title: Mythmaker Media / Visuel identitet
-  - image: /img/mockupdansepige-1.png
-    imagename: Pige 1
+  - image: /img/dansepiger.jpg
+    imagename: Dansepiger
     images:
-      - image: /img/mockupdansepige2-1.png
+      - image: /img/mockupdansepige.png
+        imagename: Pige 1
+      - image: /img/mockupdansepige2.png
         imagename: Pige 2
-      - image: /img/mockupdansepige3-1.png
+      - image: /img/mockupdansepige3.png
         imagename: Pige 3
     text: |-
       "If you stumble, make it a part of your dance."
