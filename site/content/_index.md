@@ -67,6 +67,23 @@ cases:
     imagename: Kim Larsen
     text: Kim Larsen illustration
     title: Kim Larsen / Illustration
+  - image: /img/jess.jpg
+    imagename: Jess
+    images:
+      - image: /img/julie.jpg
+        imagename: Julie
+      - image: /img/laura.jpg
+        imagename: Laura
+      - image: /img/susan.jpg
+        imagename: Susan
+      - image: /img/sara.jpg
+        imagename: Sara
+      - image: /img/abbie.jpg
+        imagename: Abbie
+      - image: /img/nanna.jpg
+        imagename: Nanna
+    text: Galleri med forskellige kvinde illustrationer.
+    title: Ladies / Illustration
   - image: /img/mythmakerguideockup_2.png
     imagename: Designguide
     images:
@@ -99,22 +116,5 @@ cases:
     imagename: Cactus
     text: Cactus
     title: Cactus / Illustration
-  - image: /img/jess.jpg
-    imagename: Jess
-    images:
-      - image: /img/julie.jpg
-        imagename: Julie
-      - image: /img/laura.jpg
-        imagename: Laura
-      - image: /img/susan.jpg
-        imagename: Susan
-      - image: /img/sara.jpg
-        imagename: Sara
-      - image: /img/abbie.jpg
-        imagename: Abbie
-      - image: /img/nanna.jpg
-        imagename: Nanna
-    text: Galleri med forskellige kvinde illustrationer.
-    title: Ladies / Illustration
 ---
 
