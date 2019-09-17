@@ -85,5 +85,11 @@ cases:
     imagename: Kim Larsen
     text: Kim Larsen illustration
     title: Kim Larsen / Illustration
+  - image: /img/tropevæg.jpg
+    imagename: Tropevæg
+    text: >-
+      Foliebeklædning på 13,5x2,5 meter til ydrevæggen på tropehuset i Aalborg
+      Zoo.
+    title: Tropevæg i Aalborg Zoo
 ---
 
