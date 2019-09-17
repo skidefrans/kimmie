@@ -20,6 +20,21 @@ cases:
       identitet. Der er lavet re-design af logo, visitkort, skilte og
       hjemmeside.
     title: Aalborg Zoo / Visuel identitet
+  - image: /img/circles1.jpg
+    imagename: Circles
+    images:
+      - image: /img/newcircles.png
+        imagename: Circles
+      - image: /img/bigcircles.png
+        imagename: Big Circles
+    text: Illustration af cirkler
+    title: Circles / Illustration
+  - image: /img/tropevæg.jpg
+    imagename: Tropevæg
+    text: >-
+      Foliebeklædning på 13,5x2,5 meter til ydrevæggen på tropehuset i Aalborg
+      Zoo.
+    title: Tropevæg i Aalborg Zoo
   - image: /img/aayguidemockup-2.png
     imagename: Designguide
     images:
@@ -34,6 +49,24 @@ cases:
       Der er lavet re-design af logo, hjemmeside, nyhedsbrev, ordrebekræftelse
       og visitkort.
     title: All About You / Visuel identitet
+  - image: /img/dansepiger.jpg
+    imagename: Dansepiger
+    images:
+      - image: /img/mockupdansepige.png
+        imagename: Pige 1
+      - image: /img/mockupdansepige2.png
+        imagename: Pige 2
+      - image: /img/mockupdansepige3.png
+        imagename: Pige 3
+    text: |-
+      "If you stumble, make it a part of your dance."
+      "Why walk when you can dance?"
+      "When you feel sad, dance."
+    title: Dansepigerne / Illustration
+  - image: /img/kimmockup.jpg
+    imagename: Kim Larsen
+    text: Kim Larsen illustration
+    title: Kim Larsen / Illustration
   - image: /img/mythmakerguideockup_2.png
     imagename: Designguide
     images:
@@ -49,21 +82,7 @@ cases:
       Skoleprojekt omkring re-design af Mythmaker Media’s visuelle identitet. I
       re-designet blev der lavet logo, visitkort, hjemmeside samt design guide.
     title: Mythmaker Media / Visuel identitet
-  - image: /img/dansepiger.jpg
-    imagename: Dansepiger
-    images:
-      - image: /img/mockupdansepige.png
-        imagename: Pige 1
-      - image: /img/mockupdansepige2.png
-        imagename: Pige 2
-      - image: /img/mockupdansepige3.png
-        imagename: Pige 3
-    text: |-
-      "If you stumble, make it a part of your dance."
-      "Why walk when you can dance?"
-      "When you feel sad, dance."
-    title: Dansepigerne / Illustration
-  - image: /img/artflycover.png
+  - image: /img/circles1.jpg
     imagename: Forside
     images:
       - image: /img/artflysider.png
@@ -72,24 +91,5 @@ cases:
         imagename: Pladebørs
     text: "Skoleprojekt omkring magasin design.\r\nDer er lavet navn, logo, forside med et billede fra en anden kunstner, indersider, samt en designguide"
     title: Artfly / Magasin Design
-  - image: /img/circles1.jpg
-    imagename: Circles
-    images:
-      - image: /img/newcircles.png
-        imagename: Circles
-      - image: /img/bigcircles.png
-        imagename: Big Circles
-    text: Illustration af cirkler
-    title: Circles / Illustration
-  - image: /img/kimmockup.jpg
-    imagename: Kim Larsen
-    text: Kim Larsen illustration
-    title: Kim Larsen / Illustration
-  - image: /img/tropevæg.jpg
-    imagename: Tropevæg
-    text: >-
-      Foliebeklædning på 13,5x2,5 meter til ydrevæggen på tropehuset i Aalborg
-      Zoo.
-    title: Tropevæg i Aalborg Zoo
 ---
 
