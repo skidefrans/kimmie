@@ -74,5 +74,9 @@ cases:
     imagename: circles
     text: Illustration af cirkler
     title: Circles
+  - image: /img/kimmockup.jpg
+    imagename: Kim Larsen
+    text: Kim Larsen illustration
+    title: Kim Larsen
 ---
 
