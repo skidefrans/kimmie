@@ -1,0 +1,35 @@
+﻿
+$wrapper__base:1650px;
+$side-padding:65px;
+
+$line-height: 90px;
+$line-height-abs: -90px;
+
+$colors: (
+    //primary
+    p: ( 
+        base: #005cb9, 
+        dark: #002f51,
+        ),
+    //black
+    b: (
+        base: #000000,
+    ),
+    //white
+    w: (
+        base: #ffffff,
+    ),
+    //gray
+    g:(
+        base:#efefef,
+        darker:#dbdbdb,
+        dark:#979797,
+    )
+   );
+
+$fonts: (
+
+        base: ('Source Sans Pro', sans-serif),
+        title: ('Lora', serif),
+
+    );

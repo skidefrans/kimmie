@@ -1,0 +1,109 @@
+﻿$bp-xs: 321px;
+$bp-sm: 576px;
+$bp-md: 900px;
+$bp-lg: 1550px;
+$bp-xl: 1640px;
+
+@mixin bp($point) {
+  $cut: 0.02;
+
+  @if $point == xs or $point == xs-d or $point == xs-d {
+    $cut: 0;
+  }
+  //Going up - Standard mobile first
+  $xs: "(min-width: " + $bp-xs + ")";
+  $sm: "(min-width: " + $bp-sm + ")";
+  $md: "(min-width: " + $bp-md + ")";
+  $lg: "(min-width: " + $bp-lg + ")";
+  $xl: "(min-width: " + $bp-xl + ")";
+
+  //Going down - d:down
+  $xs-d: "(max-width: " + ($bp-xs - $cut) + ")";
+  $sm-d: "(max-width: " + ($bp-sm - $cut) + ")";
+  $md-d: "(max-width: " + ($bp-md - $cut) + ")";
+  $lg-d: "(max-width: " + ($bp-lg - $cut) + ")";
+  $xl-d: "(max-width: " + ($bp-xl - $cut) + ")";
+
+  //Specific resolution - o:only
+  $xs-o: "(max-width: " + ($bp-sm - $cut) + ")";
+  $sm-o: "(min-width: " + $bp-sm + ") and (max-width: " + ($bp-md - $cut) + ")";
+  $md-o: "(min-width: " + $bp-md + ") and (max-width: " + ($bp-lg - $cut) + ")";
+  $lg-o: "(min-width: " + $bp-lg + ") and (max-width: " + ($bp-xl - $cut) + ")";
+  $xl-o: "(min-width: " + $bp-xl + ")";
+
+  //Normal
+  @if $point == xs {
+    @media #{$xs} {
+      @content;
+    }
+  }
+
+  @if $point == sm {
+    @media #{$sm} {
+      @content;
+    }
+  } @else if $point == md {
+    @media #{$md} {
+      @content;
+    }
+  } @else if $point == lg {
+    @media #{$lg} {
+      @content;
+    }
+  } @else if $point == xl {
+    @media #{$xl} {
+      @content;
+    }
+  }
+  //Down
+  /*@else if $point == xs-d {
+        @media #{$xs-d} {
+            @content;
+        }
+    }*/
+  @else if $point == sm-d {
+    @media #{$sm-d} {
+      @content;
+    }
+  } @else if $point == md-d {
+    @media #{$md-d} {
+      @content;
+    }
+  } @else if $point == lg-d {
+    @media #{$lg-d} {
+      @content;
+    }
+  } @else if $point == xl-d {
+    @media #{$xl-d} {
+      @content;
+    }
+  }
+  //Only
+  @else if $point == xs-o {
+    @media #{$xs-o} {
+      @content;
+    }
+  } @else if $point == sm-o {
+    @media #{$sm-o} {
+      @content;
+    }
+  } @else if $point == md-o {
+    @media #{$md-o} {
+      @content;
+    }
+  } @else if $point == lg-o {
+    @media #{$lg-o} {
+      @content;
+    }
+  } @else if $point == xl-o {
+    @media #{$xl-o} {
+      @content;
+    }
+  }
+}
+
+@mixin ie() {
+  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    @content;
+  }
+}

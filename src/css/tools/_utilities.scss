@@ -1,0 +1,12 @@
+﻿// retrieve color from $colors map ie. `color(base, primary)`
+@function color($color-name, $color-variant: base)
+{
+    @return map-get(map-get($colors, $color-name), $color-variant);
+}
+
+@function font($font-name: base)
+{
+    @return map-get($fonts, $font-name);
+}
+
+
