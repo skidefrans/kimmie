@@ -75,8 +75,10 @@ cases:
   - image: /img/circles1.jpg
     imagename: circles
     images:
-      - image: /img/bigcircles.png
+      - image: /img/newcircles.png
         imagename: Circles
+      - image: /img/bigcircles.png
+        imagename: Big Circles
     text: Illustration af cirkler
     title: Circles / Illustration
   - image: /img/kimmockup.jpg
