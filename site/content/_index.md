@@ -70,5 +70,9 @@ cases:
         imagename: Pladebørs
     text: "Skoleprojekt omkring magasin design.\r\nDer er lavet navn, logo, forside med et billede fra en anden kunstner, indersider, samt en designguide"
     title: Artfly / Magasin Design
+  - image: /img/circles1.jpg
+    imagename: circles
+    text: Illustration af cirkler
+    title: Circles
 ---
 
