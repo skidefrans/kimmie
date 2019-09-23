@@ -125,5 +125,9 @@ cases:
     imagename: Hjalmer
     text: Illustration af Hjalmer
     title: Hjalmer / Illustration
+  - image: /img/moon.jpg
+    imagename: Black moon
+    text: Illustration af måne
+    title: Black moon / Illustration
 ---
 
