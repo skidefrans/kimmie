@@ -121,5 +121,9 @@ cases:
     imagename: Cactus
     text: Cactus
     title: Cactus / Illustration
+  - image: /img/hjalmer.jpg
+    imagename: Hjalmer
+    text: Illustration af Hjalmer
+    title: Hjalmer / Illustration
 ---
 
