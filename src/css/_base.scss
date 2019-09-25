@@ -55,6 +55,9 @@ font-weight: 400;
   margin: 85px;
   position: relative;
 
+  @include bp(md-d) {
+    margin: 50px 0;
+  }
   
 
   &::before {
@@ -70,6 +73,10 @@ font-weight: 400;
     transform-origin: center center;
     border-top:solid 2px #555;
     border-bottom:solid 2px #555;
+    
+    @include bp(md-d){
+      display: none;
+    }
 
   }
 
@@ -77,8 +84,12 @@ font-weight: 400;
     padding: 50px;
     display: grid;
     grid-gap: 25px;
-    grid-template-columns: repeat(auto-fill, minmax(450px,1fr));
+    grid-template-columns: repeat(auto-fill, minmax(350px,1fr));
     grid-auto-rows: 25px;
+
+    @include bp(md-d) {
+      padding: 10px;
+    }
    
   }
 
@@ -215,8 +226,9 @@ font-weight: 400;
 .contact {
   margin-top: 150px;
   padding-bottom: 200px;
+
   .about {
-    max-width: 100%;
+    max-width: 90%;
     width: 800px;
     margin: 0 auto;
     text-align: center;
@@ -226,6 +238,10 @@ font-weight: 400;
     display: flex;
     align-items: center;
     justify-content: center;
+    max-width: 60%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+
 
     a {
       font-size: 18px;
