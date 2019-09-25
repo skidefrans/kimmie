@@ -250,6 +250,7 @@
 
     @include bp(md-d) {
       flex-direction: column;
+      max-width: 95%;
     }
 
     a {
@@ -259,6 +260,7 @@
       text-decoration: none;
       padding-right: 10px;
       font-weight: bold;
+      margin-bottom: 10px;
 
       &::before {
         content: "/";
