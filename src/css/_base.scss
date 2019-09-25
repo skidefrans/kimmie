@@ -1,12 +1,11 @@
 ﻿body {
   -webkit-font-smoothing: antialiased;
-  font-family: 'Source Code Pro', monospace;
-font-weight: 200;
+  font-family: "Source Code Pro", monospace;
+  font-weight: 200;
   font-size: 20px;
   max-width: 1920px;
   margin: 0 auto;
   background-color: #f8f2f9;
-
 
   &.intro {
     overflow: hidden;
@@ -32,7 +31,7 @@ font-weight: 200;
 
 .main-nav {
   position: fixed;
-  top:2.1vw;
+  top: 2.1vw;
   right: 85px;
   padding: 8px 15px 6px;
   border-radius: 7px;
@@ -44,13 +43,12 @@ font-weight: 200;
     display: none;
   }
 
-
   a {
     color: #fff;
     text-decoration: none;
-  font-family: 'Josefin Slab', serif;
-font-size: 24px;
-font-weight: 400;
+    font-family: "Josefin Slab", serif;
+    font-size: 24px;
+    font-weight: 400;
   }
 }
 
@@ -62,10 +60,9 @@ font-weight: 400;
   @include bp(md-d) {
     margin: 50px 0;
   }
-  
 
   &::before {
-    content: '';
+    content: "";
     display: block;
     width: 120px;
     height: 15px;
@@ -75,30 +72,28 @@ font-weight: 400;
     z-index: 10;
     transform: translateX(-50%) rotate(-45deg);
     transform-origin: center center;
-    border-top:solid 2px #555;
-    border-bottom:solid 2px #555;
-    
-    @include bp(md-d){
+    border-top: solid 2px #555;
+    border-bottom: solid 2px #555;
+
+    @include bp(md-d) {
       display: none;
     }
-
   }
 
   .wrapper {
     padding: 50px;
     display: grid;
     grid-gap: 25px;
-    grid-template-columns: repeat(auto-fill, minmax(350px,1fr));
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     grid-auto-rows: 25px;
 
     @include bp(md-d) {
       padding: 10px;
     }
-   
   }
 
-
-  h1,h2 {
+  h1,
+  h2 {
     font-weight: 200;
   }
   .case {
@@ -109,7 +104,7 @@ font-weight: 400;
     align-items: center;
     cursor: url(/assets/eye3.svg) 25 25, pointer;
     border-bottom: solid 1px #eee;
-    
+
     &-intro {
       padding: 40px 10px 20px;
       font-size: 17px;
@@ -131,13 +126,13 @@ font-weight: 400;
     }
   }
 }
-    .content {
-      width: 100%;
-      > div {
-        background-position: center center;
-        background-size: cover;
-      }
-    }
+.content {
+  width: 100%;
+  > div {
+    background-position: center center;
+    background-size: cover;
+  }
+}
 
 .case-image {
   background-position: center center;
@@ -152,7 +147,7 @@ font-weight: 400;
     z-index: 10000;
 
     &::after {
-      content: '';
+      content: "";
       display: block;
       width: 120px;
       height: 15px;
@@ -162,9 +157,8 @@ font-weight: 400;
       z-index: 10;
       transform: translateX(50%) rotate(45deg);
       transform-origin: center center;
-      border-top:solid 2px #555;
-      border-bottom:solid 2px #555;
-  
+      border-top: solid 2px #555;
+      border-bottom: solid 2px #555;
     }
 
     .case-image-nav {
@@ -180,29 +174,38 @@ font-weight: 400;
       background-color: #fff;
       cursor: auto;
 
+      @include bp(md-d) {
+      padding: 30px 30px 30px 0;
+      flex-wrap: wrap;
+      }
+
       li {
         padding-right: 10px;
         pointer-events: all;
         cursor: pointer;
         position: relative;
 
-&:hover {
-  &::after {
-    content:'';
-    display: block;
-    position: absolute;
-    bottom: -7px;
-    left: 0;
-    width: calc(100% - 10px);
-    height: 1px;
-    background-color: #555;
-  }
-}
+        @include bp(md-d) {
+          margin-bottom: 10px;
+        }
+
+        &:hover {
+          &::after {
+            content: "";
+            display: block;
+            position: absolute;
+            bottom: -7px;
+            left: 0;
+            width: calc(100% - 10px);
+            height: 1px;
+            background-color: #555;
+          }
+        }
 
         &.current {
           pointer-events: none;
           &::after {
-            content:'';
+            content: "";
             display: block;
             position: absolute;
             bottom: -7px;
@@ -214,14 +217,12 @@ font-weight: 400;
         }
 
         &::before {
-          content: '/';
+          content: "/";
           margin-right: 3px;
         }
       }
     }
   }
-
-  
 }
 
 .case-image-nav {
@@ -247,6 +248,9 @@ font-weight: 400;
     margin: 0 auto;
     flex-wrap: wrap;
 
+    @include bp(md-d) {
+      flex-direction: column;
+    }
 
     a {
       font-size: 18px;
@@ -254,13 +258,14 @@ font-weight: 400;
       color: #555;
       text-decoration: none;
       padding-right: 10px;
+      font-weight: bold;
 
       &::before {
-        content: '/';
+        content: "/";
         margin-right: 3px;
       }
       &:hover::after {
-        content:'';
+        content: "";
         display: block;
         position: absolute;
         bottom: -7px;
