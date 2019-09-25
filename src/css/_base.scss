@@ -102,7 +102,6 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    cursor: url(/img/eye3.svg) 25 25, pointer;
     border-bottom: solid 1px #eee;
 
     &-intro {
@@ -142,6 +141,8 @@
   border: solid 0px #fff;
   box-sizing: border-box;
   background-color: #fff;
+  
+  cursor: url(/img/eye3.svg) 25 25, pointer;
 
   &.open {
     z-index: 10000;
