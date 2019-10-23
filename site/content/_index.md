@@ -133,5 +133,9 @@ cases:
     imagename: Black moon
     text: Illustration af måne
     title: Black moon / Illustration
+  - image: /img/aalborgzoovip.jpg
+    imagename: VIPkort
+    text: Design af VIPkort til Aalborg Zoo
+    title: Aalborg Zoo VIPkort
 ---
 
