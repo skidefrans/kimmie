@@ -90,6 +90,10 @@ cases:
       Skoleprojekt omkring re-design af Mythmaker Media’s visuelle identitet. I
       re-designet blev der lavet logo, visitkort, hjemmeside samt design guide.
     title: Mythmaker Media / Visuel identitet
+  - image: /img/aalborgzoovip.jpg
+    imagename: VIPkort
+    text: Design af VIPkort til Aalborg Zoo
+    title: Aalborg Zoo VIPkort
   - image: /img/kimmockup.jpg
     imagename: Kim Larsen
     text: Kim Larsen illustration
@@ -133,9 +137,5 @@ cases:
     imagename: Black moon
     text: Illustration af måne
     title: Black moon / Illustration
-  - image: /img/aalborgzoovip.jpg
-    imagename: VIPkort
-    text: Design af VIPkort til Aalborg Zoo
-    title: Aalborg Zoo VIPkort
 ---
 
