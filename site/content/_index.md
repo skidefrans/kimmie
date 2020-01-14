@@ -137,5 +137,9 @@ cases:
     imagename: Black moon
     text: Illustration af måne
     title: Black moon / Illustration
+  - image: /img/threeabstract.jpg
+    imagename: Blobs
+    text: Blobs
+    title: Blobs / Illustration
 ---
 
