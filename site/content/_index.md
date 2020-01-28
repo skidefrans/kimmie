@@ -141,5 +141,9 @@ cases:
     imagename: Blobs
     text: Blobs
     title: Blobs / Illustration
+  - image: /img/stjernepærenode.jpg
+    imagename: Lines
+    text: Lines
+    title: Lines / Illustration
 ---
 
