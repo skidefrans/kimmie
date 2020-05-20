@@ -145,11 +145,15 @@ cases:
     imagename: Lines
     text: Lines
     title: Lines / Illustration
-  - image: /img/img_20200311_102232.jpg
+  - image: /img/zooafrikanskvæg.jpg
     imagename: Billedeserie
     images:
+      - image: /img/img_20200311_102232.jpg
+        imagename: Den Afrikanske landsby
       - image: /img/img_20200311_102248.jpg
         imagename: Close up
+      - image: /img/4_ankomstmarwell_tegnebræt-1.png
+        imagename: Grafik
     text: Billedeserie som hænger i den Afrikanske landsby i Aalborg Zoo.
     title: Aalborg Zoo / Afrikanske Landsby
 ---
