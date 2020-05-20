@@ -145,7 +145,7 @@ cases:
     imagename: Lines
     text: Lines
     title: Lines / Illustration
-  - image: /img/zooafrikanskvæg.jpg
+  - image: /img/zooafrikanskvægzoom.jpg
     imagename: Billedeserie
     images:
       - image: /img/img_20200311_102232.jpg
