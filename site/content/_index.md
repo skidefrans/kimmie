@@ -1,10 +1,10 @@
 ---
 title: Portfolio - Kimmie Amaliegaard Vinston Jørgensen
 about: >-
-  Jeg er 24 år og uddannet Grafisk Designteknolog.
+  Jeg er 25 år og uddannet Grafisk Designteknolog.
 
-  Her på siden finder du en blanding af skoleopgaver, freelanceopgaver, samt
-  fritidsprojekter.
+  Her på siden finder du en blanding af freelanceopgaver, fritidsprojekter samt
+  skoleopgaver.
 cases:
   - image: /img/aalzoodesignguide.jpg
     imagename: Designguide
@@ -145,5 +145,12 @@ cases:
     imagename: Lines
     text: Lines
     title: Lines / Illustration
+  - image: /img/img_20200311_102232.jpg
+    imagename: Billedeserie
+    images:
+      - image: /img/img_20200311_102248.jpg
+        imagename: Close up
+    text: Billedeserie som hænger i den Afrikanske landsby i Aalborg Zoo.
+    title: Aalborg Zoo / Afrikanske Landsby
 ---
 
