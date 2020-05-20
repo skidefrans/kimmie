@@ -149,7 +149,7 @@ cases:
     imagename: Billedeserie
     images:
       - image: /img/img_20200311_102232.jpg
-        imagename: Den Afrikanske landsby
+        imagename: Afrikanske landsby
       - image: /img/img_20200311_102248.jpg
         imagename: Close up
       - image: /img/4_ankomstmarwell_tegnebræt-1.png
