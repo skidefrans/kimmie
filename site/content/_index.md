@@ -121,10 +121,25 @@ cases:
         imagename: Pladebørs
     text: "Skoleprojekt omkring magasin design.\r\nDer er lavet navn, logo, forside med et billede fra en anden kunstner, indersider, samt en designguide"
     title: Artfly / Magasin Design
+  - image: /img/zooafrikanskvægzoom.jpg
+    imagename: Billedeserie
+    images:
+      - image: /img/img_20200311_102232.jpg
+        imagename: Afrikanske landsby
+      - image: /img/img_20200311_102248.jpg
+        imagename: Close up
+      - image: /img/4_ankomstmarwell_tegnebræt-1.png
+        imagename: Grafik
+    text: Billedeserie som hænger i den Afrikanske landsby i Aalborg Zoo.
+    title: Aalborg Zoo / Afrikanske Landsby
   - image: /img/flamingos.jpg
     imagename: Flamingos
     text: Flamingos
     title: Flamingos / Illustration
+  - image: /img/zoo_magasin.jpg
+    imagename: Annonce
+    text: Annonce til Handicapbladet omkring Aalborg Zoo
+    title: Annonce
   - image: /img/cactus.jpg
     imagename: Cactus
     text: Cactus
@@ -145,20 +160,5 @@ cases:
     imagename: Lines
     text: Lines
     title: Lines / Illustration
-  - image: /img/zooafrikanskvægzoom.jpg
-    imagename: Billedeserie
-    images:
-      - image: /img/img_20200311_102232.jpg
-        imagename: Afrikanske landsby
-      - image: /img/img_20200311_102248.jpg
-        imagename: Close up
-      - image: /img/4_ankomstmarwell_tegnebræt-1.png
-        imagename: Grafik
-    text: Billedeserie som hænger i den Afrikanske landsby i Aalborg Zoo.
-    title: Aalborg Zoo / Afrikanske Landsby
-  - image: /img/zoo_magasin.jpg
-    imagename: Annonce
-    text: Annonce til Handicapbladet omkring Aalborg Zoo
-    title: Annonce
 ---
 
