@@ -156,5 +156,9 @@ cases:
         imagename: Grafik
     text: Billedeserie som hænger i den Afrikanske landsby i Aalborg Zoo.
     title: Aalborg Zoo / Afrikanske Landsby
+  - image: /img/zoo_magasin.jpg
+    imagename: Annonce
+    text: Annonce til Handicapbladet omkring Aalborg Zoo
+    title: Annonce
 ---
 
