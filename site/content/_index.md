@@ -139,7 +139,7 @@ cases:
   - image: /img/zoo_magasin.jpg
     imagename: Annonce
     text: Annonce til Handicapbladet omkring Aalborg Zoo
-    title: Annonce
+    title: Aalborg Zoo / Annonce
   - image: /img/cactus.jpg
     imagename: Cactus
     text: Cactus
