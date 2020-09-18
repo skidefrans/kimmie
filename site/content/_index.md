@@ -1,7 +1,7 @@
 ---
 title: Portfolio - Kimmie Amaliegaard Vinston Jørgensen
 about: >-
-  Jeg er 25 år og uddannet Grafisk Designteknolog.
+  Grafisk Designteknolog som går løs på alle typer opgaver.
 
   Her på siden finder du en blanding af freelanceopgaver, fritidsprojekter samt
   skoleopgaver.
