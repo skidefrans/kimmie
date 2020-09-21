@@ -22,8 +22,8 @@ cases:
     title: Aalborg Zoo / Visuel identitet
   - image: /img/badboybutchersbbq.jpg
     imagename: Folder
-    text: A5 folder til fremvisning af menuer fra Bad Boy Butchers BBQ
-    title: Bad Boy Butchers / Folder
+    text: A5 menukort til Bad Boy Butchers BBQ
+    title: Bad Boy Butchers / Menu
   - image: /img/circles1.jpg
     imagename: Circles
     images:
