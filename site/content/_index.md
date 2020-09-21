@@ -160,5 +160,14 @@ cases:
     imagename: Lines
     text: Lines
     title: Lines / Illustration
+  - image: /img/reusers_folder_forside.jpg
+    imagename: Forside
+    images:
+      - image: /img/reuser_folder_midten-copy.jpg
+        imagename: Indersider
+      - image: /img/reusers_folder_forbag-copy.jpg
+        imagename: Bagside
+    text: Folder til REusers
+    title: REusers / Folder
 ---
 
