@@ -24,6 +24,15 @@ cases:
     imagename: Folder
     text: A5 menukort til Bad Boy Butchers BBQ
     title: Bad Boy Butchers / Menu
+  - image: /img/reusers_folder_forside.jpg
+    imagename: Forside
+    images:
+      - image: /img/reuser_folder_midten-copy.jpg
+        imagename: Indersider
+      - image: /img/reusers_folder_forbag-copy.jpg
+        imagename: Bagside
+    text: Folder til REusers
+    title: REusers / Folder
   - image: /img/circles1.jpg
     imagename: Circles
     images:
@@ -90,14 +99,14 @@ cases:
       Skoleprojekt omkring re-design af Mythmaker Media’s visuelle identitet. I
       re-designet blev der lavet logo, visitkort, hjemmeside samt design guide.
     title: Mythmaker Media / Visuel identitet
-  - image: /img/kimmockup.jpg
-    imagename: Kim Larsen
-    text: Kim Larsen illustration
-    title: Kim Larsen / Illustration
   - image: /img/aalborgzoovip.jpg
     imagename: VIPkort
     text: Design af VIPkort til Aalborg Zoo
     title: Aalborg Zoo VIPkort
+  - image: /img/kimmockup.jpg
+    imagename: Kim Larsen
+    text: Kim Larsen illustration
+    title: Kim Larsen / Illustration
   - image: /img/dansepiger.jpg
     imagename: Dansepiger
     images:
@@ -112,15 +121,6 @@ cases:
       "Why walk when you can dance?"
       "When you feel sad, dance."
     title: Dansepigerne / Illustration
-  - image: /img/artflycover.png
-    imagename: Forside
-    images:
-      - image: /img/artflysider.png
-        imagename: Artikel
-      - image: /img/artflyandresider.png
-        imagename: Pladebørs
-    text: "Skoleprojekt omkring magasin design.\r\nDer er lavet navn, logo, forside med et billede fra en anden kunstner, indersider, samt en designguide"
-    title: Artfly / Magasin Design
   - image: /img/zooafrikanskvægzoom.jpg
     imagename: Billedeserie
     images:
@@ -132,6 +132,15 @@ cases:
         imagename: Grafik
     text: Billedeserie som hænger i den Afrikanske landsby i Aalborg Zoo.
     title: Aalborg Zoo / Afrikanske Landsby
+  - image: /img/artflycover.png
+    imagename: Forside
+    images:
+      - image: /img/artflysider.png
+        imagename: Artikel
+      - image: /img/artflyandresider.png
+        imagename: Pladebørs
+    text: "Skoleprojekt omkring magasin design.\r\nDer er lavet navn, logo, forside med et billede fra en anden kunstner, indersider, samt en designguide"
+    title: Artfly / Magasin Design
   - image: /img/flamingos.jpg
     imagename: Flamingos
     text: Flamingos
@@ -160,14 +169,5 @@ cases:
     imagename: Lines
     text: Lines
     title: Lines / Illustration
-  - image: /img/reusers_folder_forside.jpg
-    imagename: Forside
-    images:
-      - image: /img/reuser_folder_midten-copy.jpg
-        imagename: Indersider
-      - image: /img/reusers_folder_forbag-copy.jpg
-        imagename: Bagside
-    text: Folder til REusers
-    title: REusers / Folder
 ---
 
