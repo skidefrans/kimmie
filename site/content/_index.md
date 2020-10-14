@@ -217,5 +217,9 @@ cases:
     imagename: Reusers
     text: ' 3x2m. Outdoor banner til Reusers'
     title: Reusers / Outdoor banner
+  - image: /img/babyshower.jpg
+    imagename: Babyshower
+    text: Babyshower quiz
+    title: Babyshower / Flyer
 ---
 
