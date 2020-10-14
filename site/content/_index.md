@@ -209,5 +209,9 @@ cases:
         imagename: Sandra
     text: Galleri med forskellige kvindelige curves illustrationer.
     title: Curves / Illustration
+  - image: /img/kreativeunder_logo.jpg
+    imagename: Logo
+    text: Logo til Kreative unger
+    title: Kreative unger / Logo
 ---
 
