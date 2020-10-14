@@ -169,5 +169,14 @@ cases:
     imagename: Lines
     text: Lines
     title: Lines / Illustration
+  - image: /img/lru_folder_front.jpg
+    imagename: Forside
+    images:
+      - image: /img/lru_folder_midten.jpg
+        imagename: Indersider
+      - image: /img/lru_folder_for_bag.jpg
+        imagename: Bagside
+    text: Folder til Little Reusers
+    title: Little REusers / Folder
 ---
 
