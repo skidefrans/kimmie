@@ -178,5 +178,14 @@ cases:
         imagename: Bagside
     text: Folder til Little Reusers
     title: Little REusers / Folder
+  - image: /img/vand_ru_lru-01.jpg
+    imagename: Label
+    images:
+      - image: /img/lru_vand.jpg
+        imagename: Little Reusers
+      - image: /img/ru_vand.jpg
+        imagename: Reusers
+    text: Label til vandflasker til Reusers & Little Reusers
+    title: Reusers & Little Reusers / Label
 ---
 
