@@ -53,6 +53,15 @@ cases:
       Foliebeklædning på 13,5x2,5 meter til ydrevæggen på tropehuset i Aalborg
       Zoo.
     title: Tropevæg i Aalborg Zoo
+  - image: /img/vand_ru_lru-01.jpg
+    imagename: Label
+    images:
+      - image: /img/lru_vand.jpg
+        imagename: Little Reusers
+      - image: /img/ru_vand.jpg
+        imagename: Reusers
+    text: Label til vandflasker til Reusers & Little Reusers
+    title: Reusers & Little Reusers / Label
   - image: /img/aayguidemockup-2.png
     imagename: Designguide
     images:
@@ -149,6 +158,15 @@ cases:
     imagename: Annonce
     text: Annonce til Handicapbladet omkring Aalborg Zoo
     title: Aalborg Zoo / Annonce
+  - image: /img/lru_folder_front.jpg
+    imagename: Forside
+    images:
+      - image: /img/lru_folder_midten.jpg
+        imagename: Indersider
+      - image: /img/lru_folder_for_bag.jpg
+        imagename: Bagside
+    text: Folder til Little Reusers
+    title: Little REusers / Folder
   - image: /img/cactus.jpg
     imagename: Cactus
     text: Cactus
@@ -157,6 +175,13 @@ cases:
     imagename: Hjalmer
     text: Illustration af Hjalmer
     title: Hjalmer / Illustration
+  - image: /img/løbeseddel_lru.jpg
+    imagename: Little reusers
+    images:
+      - image: /img/løbeseddel_ru.jpg
+        imagename: Reusers
+    text: Duplex flyer til omdelig til Little Reusers & Reusers
+    title: Little Reusers & Reusers / Flyer
   - image: /img/moon.jpg
     imagename: Black moon
     text: Illustration af måne
@@ -169,23 +194,9 @@ cases:
     imagename: Lines
     text: Lines
     title: Lines / Illustration
-  - image: /img/lru_folder_front.jpg
-    imagename: Forside
-    images:
-      - image: /img/lru_folder_midten.jpg
-        imagename: Indersider
-      - image: /img/lru_folder_for_bag.jpg
-        imagename: Bagside
-    text: Folder til Little Reusers
-    title: Little REusers / Folder
-  - image: /img/vand_ru_lru-01.jpg
-    imagename: Label
-    images:
-      - image: /img/lru_vand.jpg
-        imagename: Little Reusers
-      - image: /img/ru_vand.jpg
-        imagename: Reusers
-    text: Label til vandflasker til Reusers & Little Reusers
-    title: Reusers & Little Reusers / Label
+  - image: /img/ru_fødselsdag_insta.jpg
+    imagename: Reusers
+    text: Fødselsdagsopslag til Reusers' instagram
+    title: Reusers / SoME
 ---
 
