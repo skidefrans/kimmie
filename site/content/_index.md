@@ -213,5 +213,9 @@ cases:
     imagename: Logo
     text: Logo til Kreative unger
     title: Kreative unger / Logo
+  - image: /img/reusers_bilboard_outdoor.jpg
+    imagename: Reusers
+    text: ' 3x2m. Outdoor banner til Reusers'
+    title: Reusers / Outdoor banner
 ---
 
