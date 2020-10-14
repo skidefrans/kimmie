@@ -198,5 +198,16 @@ cases:
     imagename: Reusers
     text: Fødselsdagsopslag til Reusers' instagram
     title: Reusers / SoME
+  - image: /img/curves_look_shoulder.jpg
+    imagename: Kylie
+    images:
+      - image: /img/curves_side_boob.jpg
+        imagename: Camille
+      - image: /img/curves_side_shoulder.jpg
+        imagename: Louise
+      - image: /img/curves_back_arm.jpg
+        imagename: Sandra
+    text: Galleri med forskellige kvindelige curves illustrationer.
+    title: Curves / Illustration
 ---
 
