@@ -221,5 +221,9 @@ cases:
     imagename: Babyshower
     text: Babyshower quiz
     title: Babyshower / Flyer
+  - image: /img/dress_shoe.jpg
+    imagename: Night out
+    text: Night out in a dress and heels
+    title: Night out / Illustration
 ---
 
