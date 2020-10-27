@@ -60,7 +60,7 @@ cases:
         imagename: Little Reusers
       - image: /img/ru_vand.jpg
         imagename: Reusers
-    text: Label til vandflasker til Reusers & Little Reusers
+    text: Vandflaske label til Reusers & Little Reusers
     title: Reusers & Little Reusers / Label
   - image: /img/aayguidemockup-2.png
     imagename: Designguide
