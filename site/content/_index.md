@@ -53,7 +53,7 @@ cases:
       Foliebeklædning på 13,5x2,5 meter til ydrevæggen på tropehuset i Aalborg
       Zoo.
     title: Tropevæg i Aalborg Zoo
-  - image: /img/asset-1.png
+  - image: /img/vand_ru_lru-01.jpg
     imagename: Label
     images:
       - image: /img/lru_vand.jpg
