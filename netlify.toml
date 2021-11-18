@@ -9,3 +9,9 @@
 
 [context.deploy-preview]
   command = "yarn build:preview"
+
+[[redirects]]
+  from = "/baby"
+  to = "https://xn--nskeskyen-k8a.dk/share/Kimmie-Joergensen_Luna"
+  status = 301
+  force = true
