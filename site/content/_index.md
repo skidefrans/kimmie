@@ -1,10 +1,15 @@
 ---
 title: 'Portfolio - Kimmie Vinston Amaliegaard '
 about: >-
-  Grafisk Designteknolog som går løs på alle typer opgaver.
+  Jeg kan bl.a. udarbejde grafisk materiale til digitale medier som SoMe,
+  website og nyhedsbreve, lave layout og producerer tryksager, herunder
+  brochurer, bannere, løbesedler mv.
 
-  Her på siden finder du en blanding af freelanceopgaver, fritidsprojekter samt
-  skoleopgaver.
+  Jeg kan sikre sammenhæng og bidrage til at styrke den grafiske identitet og
+  virksomhedens DNA bl.a. gennem udarbejdelse af designmanual, som sikre den
+  grafiske identitet samt kommunikationen til kunderne på tværs af medierne.
+  Derudover kan jeg udføre diverse grafiske og marketingsrelaterede ad
+  hoc-opgaver samt vedligeholdelse -og optimering af hjemmesider.
 cases:
   - image: /img/mactropevæg.jpg
     imagename: Tropevæg
