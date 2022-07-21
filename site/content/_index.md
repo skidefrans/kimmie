@@ -37,15 +37,6 @@ cases:
         imagename: Bagside
     text: Folder til REusers
     title: REusers / Folder
-  - image: /img/circles1.jpg
-    imagename: Circles
-    images:
-      - image: /img/newcircles.png
-        imagename: Circles
-      - image: /img/bigcircles.png
-        imagename: Big Circles
-    text: Illustration af cirkler
-    title: Circles / Illustration
   - image: /img/mactropevæg.jpg
     imagename: Tropevæg
     images:
@@ -64,6 +55,15 @@ cases:
         imagename: Reusers
     text: Vandflaske label til Reusers & Little Reusers
     title: Reusers & Little Reusers / Label
+  - image: /img/circles1.jpg
+    imagename: Circles
+    images:
+      - image: /img/newcircles.png
+        imagename: Circles
+      - image: /img/bigcircles.png
+        imagename: Big Circles
+    text: Illustration af cirkler
+    title: Circles / Illustration
   - image: /img/aayguidemockup-2.png
     imagename: Designguide
     images:
@@ -95,6 +95,14 @@ cases:
         imagename: Nanna
     text: Galleri med forskellige kvinde illustrationer.
     title: Ladies / Illustration
+  - image: /img/aalborgzoovip.jpg
+    imagename: VIPkort
+    text: Design af VIPkort til Aalborg Zoo
+    title: Aalborg Zoo VIPkort
+  - image: /img/kimmockup.jpg
+    imagename: Kim Larsen
+    text: Kim Larsen illustration
+    title: Kim Larsen / Illustration
   - image: /img/mythmakerguideockup_2.png
     imagename: Designguide
     images:
@@ -110,14 +118,17 @@ cases:
       Skoleprojekt omkring re-design af Mythmaker Media’s visuelle identitet. I
       re-designet blev der lavet logo, visitkort, hjemmeside samt design guide.
     title: Mythmaker Media / Visuel identitet
-  - image: /img/aalborgzoovip.jpg
-    imagename: VIPkort
-    text: Design af VIPkort til Aalborg Zoo
-    title: Aalborg Zoo VIPkort
-  - image: /img/kimmockup.jpg
-    imagename: Kim Larsen
-    text: Kim Larsen illustration
-    title: Kim Larsen / Illustration
+  - image: /img/zooafrikanskvægzoom.jpg
+    imagename: Billedeserie
+    images:
+      - image: /img/img_20200311_102232.jpg
+        imagename: Afrikanske landsby
+      - image: /img/img_20200311_102248.jpg
+        imagename: Close up
+      - image: /img/4_ankomstmarwell_tegnebræt-1.png
+        imagename: Grafik
+    text: Billedeserie som hænger i den Afrikanske landsby i Aalborg Zoo.
+    title: Aalborg Zoo / Afrikanske Landsby
   - image: /img/dansepiger.jpg
     imagename: Dansepiger
     images:
@@ -132,17 +143,6 @@ cases:
       "Why walk when you can dance?"
       "When you feel sad, dance."
     title: Dansepigerne / Illustration
-  - image: /img/zooafrikanskvægzoom.jpg
-    imagename: Billedeserie
-    images:
-      - image: /img/img_20200311_102232.jpg
-        imagename: Afrikanske landsby
-      - image: /img/img_20200311_102248.jpg
-        imagename: Close up
-      - image: /img/4_ankomstmarwell_tegnebræt-1.png
-        imagename: Grafik
-    text: Billedeserie som hænger i den Afrikanske landsby i Aalborg Zoo.
-    title: Aalborg Zoo / Afrikanske Landsby
   - image: /img/artflycover.png
     imagename: Forside
     images:
@@ -152,14 +152,14 @@ cases:
         imagename: Pladebørs
     text: "Skoleprojekt omkring magasin design.\r\nDer er lavet navn, logo, forside med et billede fra en anden kunstner, indersider, samt en designguide"
     title: Artfly / Magasin Design
-  - image: /img/flamingos.jpg
-    imagename: Flamingos
-    text: Flamingos
-    title: Flamingos / Illustration
   - image: /img/zoo_magasin.jpg
     imagename: Annonce
     text: Annonce til Handicapbladet omkring Aalborg Zoo
     title: Aalborg Zoo / Annonce
+  - image: /img/flamingos.jpg
+    imagename: Flamingos
+    text: Flamingos
+    title: Flamingos / Illustration
   - image: /img/lru_folder_front.jpg
     imagename: Forside
     images:
@@ -188,6 +188,10 @@ cases:
     imagename: Black moon
     text: Illustration af måne
     title: Black moon / Illustration
+  - image: /img/ru_fødselsdag_insta.jpg
+    imagename: Reusers
+    text: Fødselsdagsopslag til Reusers' instagram
+    title: Reusers / SoME
   - image: /img/threeabstract.jpg
     imagename: Blobs
     text: Blobs
@@ -196,10 +200,6 @@ cases:
     imagename: Lines
     text: Lines
     title: Lines / Illustration
-  - image: /img/ru_fødselsdag_insta.jpg
-    imagename: Reusers
-    text: Fødselsdagsopslag til Reusers' instagram
-    title: Reusers / SoME
   - image: /img/curves_look_shoulder.jpg
     imagename: Kylie
     images:
