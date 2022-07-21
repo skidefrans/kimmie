@@ -6,20 +6,17 @@ about: >-
   Her på siden finder du en blanding af freelanceopgaver, fritidsprojekter samt
   skoleopgaver.
 cases:
-  - image: /img/aalzoodesignguide.jpg
-    imagename: Designguide
+  - image: /img/mactropevæg.jpg
+    imagename: Tropevæg
     images:
-      - image: /img/bomærkemockupvisitkort.jpg
-        imagename: Visitkort
-      - image: /img/mockuphjemmeside.jpg
-        imagename: Hjemmeside
+      - image: /img/img_20190907_101748.jpg
+        imagename: Tropehuset
+      - image: /img/tropevæg.png
+        imagename: Grafik
     text: >-
-
-
-      Afsluttende eksamensopgave omkring re-design af Aalborg Zoo’s visuelle
-      identitet. Der er lavet re-design af logo, visitkort, skilte og
-      hjemmeside.
-    title: Aalborg Zoo / Visuel identitet
+      Foliebeklædning på 13,5x2,5 meter til ydrevæggen på tropehuset i Aalborg
+      Zoo.
+    title: Tropevæg i Aalborg Zoo
   - image: /img/skælskør_vinhandel_logo_mockup.jpg
     imagename: Skælskør Vinhandel
     text: Design af logo til Skælskør Vinhandel
@@ -37,17 +34,20 @@ cases:
         imagename: Bagside
     text: Folder til REusers
     title: REusers / Folder
-  - image: /img/mactropevæg.jpg
-    imagename: Tropevæg
+  - image: /img/aalzoodesignguide.jpg
+    imagename: Designguide
     images:
-      - image: /img/img_20190907_101748.jpg
-        imagename: Tropehuset
-      - image: /img/tropevæg.png
-        imagename: Grafik
+      - image: /img/bomærkemockupvisitkort.jpg
+        imagename: Visitkort
+      - image: /img/mockuphjemmeside.jpg
+        imagename: Hjemmeside
     text: >-
-      Foliebeklædning på 13,5x2,5 meter til ydrevæggen på tropehuset i Aalborg
-      Zoo.
-    title: Tropevæg i Aalborg Zoo
+
+
+      Afsluttende eksamensopgave omkring re-design af Aalborg Zoo’s visuelle
+      identitet. Der er lavet re-design af logo, visitkort, skilte og
+      hjemmeside.
+    title: Aalborg Zoo / Visuel identitet
   - image: /img/lru_vand.jpg
     imagename: Little Reusers
     images:
