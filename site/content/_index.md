@@ -1,5 +1,5 @@
 ---
-title: Portfolio - Kimmie Amaliegaard Vinston Jørgensen
+title: 'Portfolio - Kimmie Vinston Amaliegaard '
 about: >-
   Grafisk Designteknolog som går løs på alle typer opgaver.
 
