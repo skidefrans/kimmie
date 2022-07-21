@@ -20,6 +20,10 @@ cases:
       identitet. Der er lavet re-design af logo, visitkort, skilte og
       hjemmeside.
     title: Aalborg Zoo / Visuel identitet
+  - image: /img/skælskør_vinhandel_logo_mockup.jpg
+    imagename: Skælskør Vinhandel
+    text: Design af logo til Skælskør Vinhandel
+    title: Skælskør Vinhandel / Logo
   - image: /img/badboybutchersbbq.jpg
     imagename: Folder
     text: A5 menukort til Bad Boy Butchers BBQ
